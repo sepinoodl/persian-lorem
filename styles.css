@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap");
+
+body {
+  font-family: "Vazirmatn", sans-serif;
+  background-color: #fef6f9;
+  color: #444;
+  margin: 0;
+  padding: 2rem;
+  direction: rtl;
+}
+
+header h1 {
+  text-align: center;
+  margin-top: -3px;
+  color: #c084fc;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.options {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.field {
+  margin-bottom: 1.2rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: bold;
+}
+
+input[type="range"],
+select {
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1rem;
+}
+
+button#generate {
+  background-color: #ffcefb;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  font-family: "Vazirmatn", sans-serif;
+}
+
+button#generate:hover {
+  background-color: #fca4ff;
+}
+
+.output {
+  max-width: 600px;
+  margin: 2rem auto;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  line-height: 2;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  overflow-x: hidden;
+}
+
+footer {
+  text-align: center;
+  margin-top: 1rem;
+  color: #999;
+  font-size: 0.9rem;
+}
+
+#copyText {
+  display: none; /* اول مخفی باشه */
+  margin-top: 1rem;
+  background-color: #fbcfe8;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#copyText:hover {
+  background-color: #f9a8d4;
+}

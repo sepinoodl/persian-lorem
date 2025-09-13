@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>لورم‌ساز فارسی</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>لورم‌ساز فارسی 💜</h1>
+    </header>
+
+    <main>
+      <section class="options">
+        <div class="field">
+          <label for="paragraphs">تعداد پاراگراف:</label>
+          <input type="range" id="paragraphs" min="1" max="20" value="1" />
+          <span id="paragraphsValue">1</span>
+        </div>
+
+        <div class="field">
+          <label for="words">تعداد واژه در هر پاراگراف:</label>
+          <input type="range" id="words" min="5" max="100" value="10" />
+          <span id="wordsValue">10</span>
+        </div>
+
+        <button id="generate">تولید متن</button>
+      </section>
+
+      <section class="output">
+        <div id="loremText"></div>
+        <button id="copyText">📋 کپی متن</button>
+      </section>
+    </main>
+
+    <footer>
+      <p>ساخته شده توسط سپینود</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
